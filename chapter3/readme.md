@@ -89,3 +89,20 @@ float logs = 120 / 4 * 5;  //150 因为乘除法都是左结合，优先级相�
 * 将一种算术类型和值赋给另一种算术类型的变量时，C++ 将对值进行类型转换
 * 表达式中包含不同的类型时，C++ 将进行类型转换
 * 将参数传递给函数时，C++ 将对值进行类型转换
+
+### 整型提升
+
+* 在计算表达式时，C++ 将 bool, char, unsigned char, signed char 和 short 值转换为 int，这些转换被称为整型提升(integral promotion)
+
+### 强制类型转换
+
+```cpp
+(long) nums //(typeName) value 来自C语言
+long (nums) //typeName (value) 纯粹的C++
+
+//注意
+long double (num) //会报错，由于 long 和 double 未被正确识别为一体
+(long double) (num) //正确(C++)
+
+//注意 强制类型转换不会修改变量本身！！！
+```
