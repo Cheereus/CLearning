@@ -1,2 +1,3 @@
 # CLearning
-C/C++ Learning 
+
+C/C++ Learning mainly about the <<C++ primer plus>>
