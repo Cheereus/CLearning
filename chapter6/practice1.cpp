@@ -15,7 +15,7 @@ int main()
   cout << "Enter anything: " << endl;
 
   while ((inputs[i] = cin.get()) != '@' && i < 100) {
-    inputs[i] = (isupper(inputs[i]) ?  tolower(inputs[i]) :toupper(inputs[i]));
+    inputs[i] = (isupper(inputs[i]) ?  tolower(inputs[i]) : toupper(inputs[i]));
     i++;
   }
 
@@ -28,6 +28,5 @@ int main()
   }
 
   return 0;
-
 
 }
