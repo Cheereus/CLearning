@@ -1,7 +1,6 @@
 // 整数分划问题
 
 #include <iostream>
-#include <cctype>
 using namespace std;
 int divideInteger (int n, int m);
 
