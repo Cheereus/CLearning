@@ -36,7 +36,7 @@ int main()
       break;
     }
   }
-  cout << n << "!=" << a[r] << " ";
+  cout << n << "!=" << a[r];
 
   for (i = r - 1; i >= 1; i--) {
     if (a[i] > 99999) {
