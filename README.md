@@ -13,6 +13,6 @@ C/C++ 学习记录
 
 《C++ Primer Plus》笔记和习题
 
-## Laojiu
+## LaoJiu
 
 老九学堂作业
