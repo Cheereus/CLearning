@@ -2,7 +2,7 @@
  * @Description: 优学院课件学习时长自动脚本 
  * @Author: 陈十一
  * @Date: 2020-04-24 09:33:10
- * @LastEditTime: 2020-04-27 09:44:56
+ * @LastEditTime: 2020-07-14 20:09:42
  * @LastEditors: 陈十一
  */
 
@@ -23,4 +23,14 @@ function openPPT(n){
     else openPPT(n+1);
   }, t);                               // 间隔 t 时间再打开下一个
 }
-openPPT(0)                             // 从第一个开始                         
+openPPT(0)                             // 从第一个开始    
+
+$ = $
+setInterval(function(){
+  let renshi = $('.index_green__2lFgU');
+  renshi && renshi.click();
+  let next = $('.StudyPage_nextBtn__1ygGn')
+  next && next.click();
+  let done = $('.StudyDone_checkinBtn__3DuXc')
+  done && done.click();
+},200)
