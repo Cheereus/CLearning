@@ -19,7 +19,7 @@ function openPPT(n){
   console.info('已点击' + i + '次');
   i++;
   setTimeout(function(){
-    if(n == number) openPPT(0);          
+    if(n === number) openPPT(0);
     else openPPT(n+1);
   }, t);                               // 间隔 t 时间再打开下一个
 }
